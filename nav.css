@@ -1,0 +1,23 @@
+#sp{
+    letter-spacing: 2px;
+    color: red;
+}
+.spp{
+    font-family: Comic Sans MS;
+    font-size: 1.5em;
+    padding-right: 1rem;
+}
+.spp:hover{
+    text-decoration: none;
+}
+#s{
+    color:magenta;
+}
+#sub{
+    font-size: xx-small;
+}
+@media screen and (max-width:350px){
+    .spp sub{
+        visibility:hidden ;
+    }
+}
